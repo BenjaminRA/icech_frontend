@@ -7,6 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        'left-arrow': 'left-arrow 1s ease-in-out infinite',
+        'right-arrow': 'right-arrow 1s ease-in-out infinite'
+      },
+      colors: {
+        primary: "#C99D66",
+        secondary: "#7E4E24",
+        background: "#E6E6E6"
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

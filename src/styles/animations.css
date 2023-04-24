@@ -1,0 +1,21 @@
+@keyframes left-arrow {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-25%);
+  }
+}
+
+@keyframes right-arrow {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(25%);
+  }
+}
